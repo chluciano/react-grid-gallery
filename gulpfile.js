@@ -1,7 +1,6 @@
 'use strict';
 
 var gulp = require('gulp');
-var ghPages = require('gulp-gh-pages');
 
 var babelify = require('babelify');
 var browserify = require('browserify');
@@ -28,8 +27,7 @@ gulp.task('build-all', function() {
         'build-lib',
         'build-cljs-lib',
         'clean-web',
-        ['browserify', 'copy-css', 'copy-html'],
-        'deploy-web');
+        ['browserify', 'copy-css', 'copy-html']);
 });
 
 gulp.task('clean-lib', function () {

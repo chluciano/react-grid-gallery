@@ -18,7 +18,6 @@
     "gulp-babel": "^6.1.2",
     "gulp-beautify": "^2.0.0",
     "gulp-clean": "^0.3.2",
-    "gulp-gh-pages": "^0.5.4",
     "gulp-if": "^2.0.1",
     "gulp-uglify": "^2.0.0",
     "react": "^15.5.4",
